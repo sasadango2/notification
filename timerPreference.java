@@ -10,7 +10,7 @@ public class timerPreference {
                 sendNotification.notificationDisplay();
             }
         };
-        timer.schedule(task, 5000);
+        timer.schedule(task, 3600000);
     }
     
 }
