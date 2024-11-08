@@ -1,7 +1,7 @@
 # 休憩催促通知
 
 ## ・背景
-日常生活の中で仕事や家で長時間PCと睨めっこをしている人は多いだろう。長時間画面を見続けると目も疲れるし体もずっと固定されたままなので疲れてしまう。そこで私は長時間使用し続けると休憩の催促がくる機能を作成した。
+日常生活の中で仕事や家で長時間PCと睨めっこをしている人は多いだろう。長時間画面を見続けると目も疲れるし体もずっと固定されたままなので疲労が溜まり生活に支障が出てしまう。そこで私は長時間使用し続けると休憩の催促がくる機能を作成した。
 
 ## 実行画面ショット
 <img src="screenShot.jpg" alt="私の愛犬チャチャｔ" width=450>
@@ -11,8 +11,8 @@
 
 このプロジェクトは2つのJavaファイルから構成される。
 
-1. **sendNotification.java**: 通知を表示するためのクラス
-2. **timerPreference.java**: 指定された時間後に通知表示を発火するクラス
+1. **sendNotification.java**: 通知を表示するためのクラス。
+2. **timerPreference.java**: 指定された時間後に通知表示を発火するクラス。
 
 
 ## ・ファイル説明
@@ -43,5 +43,5 @@
 
 
 #### 実行コマンド
-   ```bash
-   javac sendNotification.java timerPreference.java
+   
+   javac sendNotification.java<br>timerPreference.java
